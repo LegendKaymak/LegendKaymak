@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="legendkaymak.github.io">
+  <style>
+    .f{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+    .m{font-family:'JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+    @keyframes flow{to{stroke-dashoffset:-40}}
+    @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+    @keyframes tile{0%,100%{opacity:.35}50%{opacity:1}}
+    .fl{animation:flow 1.6s linear infinite}
+    .n{animation:nudge 1.8s ease-in-out infinite}
+    .t1{animation:tile 3s ease-in-out infinite}
+    .t2{animation:tile 3s .5s ease-in-out infinite}
+    .t3{animation:tile 3s 1s ease-in-out infinite}
+    .t4{animation:tile 3s 1.5s ease-in-out infinite}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14101F"/><stop offset=".6" stop-color="#1A1022"/><stop offset="1" stop-color="#25101C"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7A3D"/><stop offset=".5" stop-color="#FF3D8B"/><stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <linearGradient id="rot" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#FF7A3D" stop-opacity="0"/><stop offset=".44" stop-color="#FF7A3D" stop-opacity="0"/><stop offset=".5" stop-color="#FFD0BD"/><stop offset=".56" stop-color="#FF3D8B" stop-opacity="0"/><stop offset="1" stop-color="#FF3D8B" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 600 75" to="360 600 75" dur="7s" repeatCount="indefinite"/></linearGradient>
+    <clipPath id="c"><rect width="1200" height="150" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="150" fill="url(#bg)"/>
+    <path class="fl" d="M0 128 C300 92 600 152 900 110 S1150 96 1200 104" fill="none" stroke="url(#ac)" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="6 14"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="148.5" rx="19.5" fill="none" stroke="url(#ac)" stroke-opacity=".5" stroke-width="1.5"/>
+  <g transform="translate(56 43)">
+    <rect class="t1" width="28" height="28" rx="7" fill="#FF7A3D"/>
+    <rect class="t2" x="36" width="28" height="28" rx="7" fill="#FF3D8B"/>
+    <rect class="t4" y="36" width="28" height="28" rx="7" fill="#7C5CFF"/>
+    <rect class="t3" x="36" y="36" width="28" height="28" rx="7" fill="#22D3EE"/>
+  </g>
+  <text x="154" y="68" class="m" font-size="13" letter-spacing="3" fill="#FF9A6B">ALL MY GAMES &amp; APPS IN ONE PLACE</text>
+  <text x="152" y="106" class="f" font-size="34" font-weight="800" letter-spacing="-.5" fill="#F5F3FA">legendkaymak.github.io</text>
+  <g class="n">
+    <rect x="976" y="51" width="168" height="48" rx="24" fill="url(#ac)"/>
+    <text x="1046" y="81" text-anchor="middle" class="f" font-size="16" font-weight="700" fill="#FFFFFF">Visit site</text>
+    <path d="M1108 75 h14 m-6 -6 l6 6 l-6 6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="148.5" rx="19.5" fill="none" stroke="url(#rot)" stroke-width="2"/>
+</svg>
