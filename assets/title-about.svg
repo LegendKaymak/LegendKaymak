@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="About">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" role="img" aria-label="About">
 <defs><linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".14"/></linearGradient>
 <linearGradient id="r" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <linearGradient id="d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7A3D"/><stop offset="1" stop-color="#FF3D8B"/></linearGradient></defs>
-<rect x="240" y="35" width="234" height="1" fill="url(#l)"/><rect x="726" y="35" width="234" height="1" fill="url(#r)"/>
-<rect x="482" y="31" width="8" height="8" rx="1.5" fill="url(#d)" transform="rotate(45 486 35)"/><rect x="710" y="31" width="8" height="8" rx="1.5" fill="url(#d)" transform="rotate(45 714 35)"/>
-<text x="600" y="40" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" letter-spacing="5" fill="#BEB9CC">ABOUT</text>
+<rect x="240" y="22" width="234" height="1" fill="url(#l)"/><rect x="726" y="22" width="234" height="1" fill="url(#r)"/>
+<rect x="482" y="18" width="8" height="8" rx="1.5" fill="url(#d)" transform="rotate(45 486 22)"/><rect x="710" y="18" width="8" height="8" rx="1.5" fill="url(#d)" transform="rotate(45 714 22)"/>
+<text x="600" y="27" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="13" letter-spacing="5" fill="#BEB9CC">ABOUT</text>
 </svg>
